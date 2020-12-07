@@ -78,7 +78,8 @@ Questions on Compiling, Training, and Evaluating the Model:
 
 .
 
-### Deliverable 4: Written Report (thie readme.md file)
+### Deliverable 4: Written Report 
+   (this readme.md file)
 
 
 .
@@ -98,7 +99,7 @@ Questions on Compiling, Training, and Evaluating the Model:
 ## Summary
   (written summary)
 
-### Recomendation 
+### Recommendation 
 
 #### Using a different model to solve the classification problem:
 
