@@ -38,15 +38,8 @@ Neural Network Model, UTMCC DataViz Module 19
 
 ## Results
 
-   Below . 
 
-### Deliverable 1: a
-
-### Deliverable 2: b 
-
-### Deliverable 3: n 
-
-   ###- Deliverable 1: Preprocessing Data for a Neural Network Model
+###- Deliverable 1: Preprocessing Data for a Neural Network Model
 
 
 
@@ -57,7 +50,7 @@ Questions on Data Preprocessing:
 
 .
 
-   ###- Deliverable 2: Compile, Train, and Evaluate the Model
+###- Deliverable 2: Compile, Train, and Evaluate the Model
 
 
 
@@ -69,13 +62,13 @@ Questions on Compiling, Training, and Evaluating the Model:
 
 .
 
-   ###- Deliverable 3: Optimize the Model
+###- Deliverable 3: Optimize the Model
 
 
 
 .
 
-   ###- Deliverable 4: Written Report (thie readme.md file)
+###- Deliverable 4: Written Report (thie readme.md file)
 
 
 .
@@ -92,7 +85,7 @@ Questions on Compiling, Training, and Evaluating the Model:
 
 ---
 
-# Summary
+## Summary
 
 ### Questions and Replies 
   1. abc
