@@ -15,10 +15,10 @@ Neural Network Model, UTMCC DataViz Module 19
 
 ## Overview 
   
-  In support of Alphabet Soup Charity . 
+  In support of the Alphabet Soup Charity Foundation predict where to make the most favorable investments. 
 
    ### Purpose
-   To prepare  . 
+   To apply machine learning and neural networks, and using the features within the provided dataset, create a binary classifier that is capable of predicting whether applicants will be successful if funded by Alphabet Soup Charity Foundation. 
   
    The deliverables are: 
    - Deliverable 1: Preprocessing Data for a Neural Network Model
