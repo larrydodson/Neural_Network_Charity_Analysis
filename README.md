@@ -46,16 +46,16 @@ Neural Network Model, UTMCC DataViz Module 19
 Questions on Data Preprocessing:
 - What variable(s) are considered the target(s) for your model?
 
- IS_SUCCESSFUL
+ `IS_SUCCESSFUL`
 
 - What variable(s) are considered to be the features for your model?
 
- APPLICATION_TYPE,	AFFILIATION,	CLASSIFICATION,	USE_CASE,	ORGANIZATION,	STATUS,	INCOME_AMT,	SPECIAL_CONSIDERATIONS,	ASK_AM
+ `APPLICATION_TYPE,	AFFILIATION,	CLASSIFICATION,	USE_CASE,	ORGANIZATION,	STATUS,	INCOME_AMT,	SPECIAL_CONSIDERATIONS,	ASK_AM`
 
 
 - What variable(s) are neither targets nor features, and should be removed from the input data?
 
- EIN,	NAME
+ `EIN,	NAME`
 
 .
 
