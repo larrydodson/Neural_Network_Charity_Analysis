@@ -63,30 +63,27 @@ Questions on Data Preprocessing:
 Questions on Compiling, Training, and Evaluating the Model:
 - *How many neurons, layers, and activation functions did you select for your neural network model, and why?*
 
- Answer: 
+ Answer: For the initial model, the number of layers, neurons, activation functions and eopchs are shown in the table below. The number of layers and neurons were chosen based on a stated general guideline *a basic neural network is to have two to three times the amount of neurons in the hidden layer as the number of inputs* . The activation functions, the optimizer and epochs were chosen based on guidelines from the coursework, and from examples given in the challenge file. Other activation functions and epochs were used to attempt a higher accuracy for the model, and all of these are not shown in the jupyter notebook file, but these attempts did not improve the accuracy results. 
+
 
 | Original<br>Model | Accuracy | Hidden Layers | Hidden Layers Neurons |  Hidden Layers Activation | Output Activation | Optimizer | Epochs |
 | :---: | ---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | - | 0.7263 | 2 | 80, 30 | relu | sigmoid | Adam | 50 |
 
 
-- *Were you able to achieve the target model performance?*
-
- Answer: 
+- *Were you able to achieve the target model performance?*  - Answer: No
 
 
 - *What steps did you take to try and increase model performance?*
 
- Answer: 
-
-
+ Answer: Numerous attempts to increase the model's accuracy were made, none though that made any improvement. These included modifying: Hidden layers, number of neurons, pattern of neurons, activation functions for both hidden layers and for the output layer, optimizer and for number of epochs. Please see the table below in Deliverabl-3 for information of five of these attempts. 
 
 .
 
 ### Deliverable 3: Optimize the Model
 
 
-- Noisy variables removed from features: and through trail-and-error, none were removed that made a significant difference in the end result. 
+- Noisy variables: Additional preprocessing was used to attempt to remove noisy or less significant features from the model. None of the attempts made a significant difference in the end results for Model Accuracy. 
 
 
 | Attempt # | Accuracy | Hidden Layers | Hidden Layers Neurons |  Hidden Layers Activation | Output Activation | Optimizer | Epochs |
@@ -95,11 +92,8 @@ Questions on Compiling, Training, and Evaluating the Model:
 | 2 | 0.7209 | 4 | 220, 120, 60, 60 | relu, tanh | sigmoid | Adam | 300 |
 | 3 | 0.7224 | 3 | 60, 40, 20 | tanh | sigmoid | Adam | 50 |
 | 4 | 0.7240 | 6 | 60, 120, 240, 240, 120, 60 | relu | sigmoid | Adam | 50 |
-| 5 | 0. | 3 | . | . | sigmoid | Adam | 50 |
+| 5 | 0.7226 | 3 | 6, 4, 6 | relu, tanh | sigmoid | Adam | 50 |
 
-
-
- *A good rule of thumb for a basic neural network is to have two to three times the amount of neurons in the hidden layer as the number of inputs.*
 
 
 .
