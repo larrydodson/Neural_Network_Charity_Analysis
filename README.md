@@ -44,16 +44,17 @@ Neural Network Model, UTMCC DataViz Module 19
 
 
 Questions on Data Preprocessing:
-- What variable(s) are considered the target(s) for your model?
+
+- *What variable(s) are considered the target(s) for your model?*
 
  **`IS_SUCCESSFUL`**
 
-- What variable(s) are considered to be the features for your model?
+- *What variable(s) are considered to be the features for your model?*
 
- ***`APPLICATION_TYPE,	AFFILIATION,	CLASSIFICATION,	USE_CASE,	ORGANIZATION,	STATUS,	INCOME_AMT,	SPECIAL_CONSIDERATIONS,	ASK_AM`***
+ **`APPLICATION_TYPE,	AFFILIATION,	CLASSIFICATION,	USE_CASE,	ORGANIZATION,	STATUS,	INCOME_AMT,	SPECIAL_CONSIDERATIONS,	ASK_AM`**
 
 
-- What variable(s) are neither targets nor features, and should be removed from the input data?
+- *What variable(s) are neither targets nor features, and should be removed from the input data?*
 
  **`EIN,	NAME`**
 
@@ -64,13 +65,13 @@ Questions on Data Preprocessing:
 
 
 Questions on Compiling, Training, and Evaluating the Model:
-- How many neurons, layers, and activation functions did you select for your neural network model, and why?
+- *How many neurons, layers, and activation functions did you select for your neural network model, and why?*
 
 
-- Were you able to achieve the target model performance?
+- *Were you able to achieve the target model performance?*
 
 
-- What steps did you take to try and increase model performance?
+- *What steps did you take to try and increase model performance?*
 
 
 
@@ -80,10 +81,13 @@ Questions on Compiling, Training, and Evaluating the Model:
 
 #### Processing for Optimization of the Model
 
+Noisy variables are removed from features
+
+
 | - | Attempt-1<br>(original) | Attempt-2 | Attempt-3 | Attempt-4 |
 | :--- | :---: | :---: | :---: | :---: | 
-| 1. Noisy variables are removed from features<br>2. Additional neurons are added to hidden layers<br>3. Additional hidden layers are added<br>4. The activation function of hidden layers<br>  5. The activation function of output layer | a | b | c | d |
- | Loss:<br>Accuracy: | a | b | c | d |
+| 1. Additional neurons are added to hidden layers<br>2. Additional hidden layers are added<br>3. The activation function of hidden layers<br>4. The activation function of output layer | a | b | c | d |
+| Loss:<br>Accuracy: | a | b | c | d |
 
 
  
