@@ -85,7 +85,7 @@ Questions on Compiling, Training, and Evaluating the Model:
 
 | Model Factor selections | Attempt-1<br>(original) | Attempt-2 | Attempt-3 | Attempt-4 |
 | ---: | :--- | :--- | :--- | :--- | 
-| - Hidden layers:<br>- Hidden layers nodes/neurons:<br>- Activation function of Hidden Layers:<br><br> <br>- Activation function of Output:<br>- Optimizer:<br>6. Epochs: | a | b | c | d |
+| Hidden Layers:<br>Hidden Layers Nodes/Neurons:<br>Activation Function of Hidden Layers:<br><br> <br>Activation Function of Output:<br>Optimizer:<br>Epochs: | a | b | c | d |
 | Loss:<br>Accuracy: | 1 | 2 | 3 | 4 |
 
 
