@@ -50,7 +50,7 @@ Questions on Data Preprocessing:
 
 - What variable(s) are considered to be the features for your model?
 
- *`APPLICATION_TYPE,	AFFILIATION,	CLASSIFICATION,	USE_CASE,	ORGANIZATION,	STATUS,	INCOME_AMT,	SPECIAL_CONSIDERATIONS,	ASK_AM`*
+ ***`APPLICATION_TYPE,	AFFILIATION,	CLASSIFICATION,	USE_CASE,	ORGANIZATION,	STATUS,	INCOME_AMT,	SPECIAL_CONSIDERATIONS,	ASK_AM`***
 
 
 - What variable(s) are neither targets nor features, and should be removed from the input data?
@@ -78,15 +78,11 @@ Questions on Compiling, Training, and Evaluating the Model:
 
 ### Deliverable 3: Optimize the Model
 
-####Processing for Optimization of the Model: 
+#### Processing for Optimization of the Model
 
 | - | Attempt-1<br>(original) | Attempt-2 | Attempt-3 | Attempt-4 |
 | :--- | :---: | :---: | :---: | :---: | 
-| 1. Noisy variables are removed from features<br>
- 2. Additional neurons are added to hidden layers<br>
- 3. Additional hidden layers are added<br>
- 4. The activation function of hidden layers<br>  
- 5. The activation function of output layer | a | b | c | d |
+| 1. Noisy variables are removed from features<br>2. Additional neurons are added to hidden layers<br>3. Additional hidden layers are added<br>4. The activation function of hidden layers<br>  5. The activation function of output layer | a | b | c | d |
  | Loss:<br>Accuracy: | a | b | c | d |
 
 
