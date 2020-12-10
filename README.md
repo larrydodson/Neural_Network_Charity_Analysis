@@ -15,7 +15,7 @@ Neural Network Modeling, UTMCC DataViz Module 19
 
 ## Overview 
   
-  In support of the Alphabet Soup Charity Foundation predict where to make the most favorable investments. 
+  In support of the Alphabet Soup Charity Foundation in order to predict where to make the most favorable investments, a multiple-layered deep learning neural network is created and tested. 
 
    ### Purpose
    To apply machine learning and neural networks, and using the features within the provided dataset, create a binary classifier that is capable of predicting whether applicants will be successful if funded by Alphabet Soup Charity Foundation. 
@@ -80,13 +80,21 @@ Questions on Compiling, Training, and Evaluating the Model:
 ### Deliverable 3: Optimize the Model
 
 
-- Noisy variables removed from features:  abc 
+- Noisy variables removed from features: and through trail-and-error, none were removed that made a significant difference in the end result. 
 
 
 | Model Factor selections | Attempt-1<br>(original) | Attempt-2 | Attempt-3 | Attempt-4 |
 | ---: | :--- | :--- | :--- | :--- | 
 | Hidden Layers:<br>Hidden Layers Nodes/Neurons:<br>Activation Function of Hidden Layers:<br><br> <br>Activation Function of Output:<br>Optimizer:<br>Epochs: | a | b | c | d |
 | Loss:<br>Accuracy: | 1 | 2 | 3 | 4 |
+
+| Attempt # | Accuracy | Hidden Layers | Hidden Layers Neurons |  Hidden Layers Activation | Output Activation | Optimizer | Epochs |
+| :---: | ---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| 1 | . | . | . | . | . | . | . |
+| 2 | . | . | . | . | . | . | . |
+| 3 | . | . | . | . | . | . | . |
+| 4 | . | . | . | . | . | . | . |
+
 
 
  *A good rule of thumb for a basic neural network is to have two to three times the amount of neurons in the hidden layer as the number of inputs.*
