@@ -65,6 +65,10 @@ Questions on Compiling, Training, and Evaluating the Model:
 
  Answer: 
 
+| Original<br>Model | Accuracy | Hidden Layers | Hidden Layers Neurons |  Hidden Layers Activation | Output Activation | Optimizer | Epochs |
+| :---: | ---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| 1 | 0.7263 | 2 | 80, 30 | relu | sigmoid | Adam | 50 |
+
 
 - *Were you able to achieve the target model performance?*
 
