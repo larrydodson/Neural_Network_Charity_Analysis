@@ -89,7 +89,7 @@ Questions on Compiling, Training, and Evaluating the Model:
 | Loss:<br>Accuracy: | 1 | 2 | 3 | 4 |
 
 
- 
+ *A good rule of thumb for a basic neural network is to have two to three times the amount of neurons in the hidden layer as the number of inputs.*
 
 
 .
