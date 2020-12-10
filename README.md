@@ -45,14 +45,14 @@ Neural Network Modeling, UTMCC DataViz Module 19
 
 Questions on Data Preprocessing:
 
-- *What variable(s) are considered the target(s) for your model?*   Answer: **`IS_SUCCESSFUL`**
+- *What variable(s) are considered the target(s) for your model?*  - Answer: **`IS_SUCCESSFUL`**
 
 - *What variable(s) are considered to be the features for your model?*
 
  Answer: **`APPLICATION_TYPE,	AFFILIATION,	CLASSIFICATION,	USE_CASE,	ORGANIZATION,	STATUS,	INCOME_AMT,	SPECIAL_CONSIDERATIONS,	ASK_AM`**
 
 
-- *What variable(s) are neither targets nor features, and should be removed from the input data?*   Answer: **`EIN,	NAME`**
+- *What variable(s) are neither targets nor features, and should be removed from the input data?*  - Answer: **`EIN,	NAME`**
 
 .
 
@@ -88,7 +88,7 @@ Questions on Compiling, Training, and Evaluating the Model:
 | Attempt # | Accuracy | Hidden Layers | Hidden Layers Neurons |  Hidden Layers Activation | Output Activation | Optimizer | Epochs |
 | :---: | ---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | 1 | 0.7223 | 2 | 90, 30 | relu | sigmoid | Adam | 50 |
-| 2 | . | 460 | 220, 120, 60, 60 | relu, tanh | sigmoid | Adam | 300 |
+| 2 | 0.7216 | 460 | 220, 120, 60, 60 | relu, tanh | sigmoid | Adam | 300 |
 | 3 | . | . | . | . | . | . | . |
 | 4 | . | . | . | . | . | . | . |
 
