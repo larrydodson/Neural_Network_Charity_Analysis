@@ -92,7 +92,7 @@ Questions on Compiling, Training, and Evaluating the Model:
 | 2 | 0.7209 | 4 | 220, 120, 60, 60 | relu, tanh | sigmoid | Adam | 300 |
 | 3 | 0.7224 | 3 | 60, 40, 20 | tanh | sigmoid | Adam | 50 |
 | 4 | 0.7240 | 6 | 60, 120, 240, 240, 120, 60 | relu | sigmoid | Adam | 50 |
-| 5 | 0.7226 | 3 | 6, 4, 6 | relu, tanh | sigmoid | Adam | 50 |
+| 5 | 0.7224 | 3 | 6, 4, 6 | tanh | linear | Adamax | 100 |
 
 
 
