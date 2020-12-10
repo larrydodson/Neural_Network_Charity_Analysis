@@ -88,8 +88,8 @@ Questions on Compiling, Training, and Evaluating the Model:
 | Attempt # | Accuracy | Hidden Layers | Hidden Layers Neurons |  Hidden Layers Activation | Output Activation | Optimizer | Epochs |
 | :---: | ---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | 1 | 0.7223 | 2 | 90, 30 | relu | sigmoid | Adam | 50 |
-| 2 | 0.7216 | 460 | 220, 120, 60, 60 | relu, tanh | sigmoid | Adam | 300 |
-| 3 | . | . | . | . | . | . | . |
+| 2 | 0.7216 | 4 | 220, 120, 60, 60 | relu, tanh | sigmoid | Adam | 300 |
+| 3 | 0.7222 | 3 | 60, 40, 20 | tanh | sigmoid | Adam | 50 |
 | 4 | . | . | . | . | . | . | . |
 
 
