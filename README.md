@@ -79,8 +79,9 @@ Questions on Compiling, Training, and Evaluating the Model:
 ### Deliverable 3: Optimize the Model
 
 ####Processing for Optimization of the Model: 
-|  | Attempt-1<br>(original) | Attempt-2 | Attempt-3 | Attempt-4 |
-|  | :--- | :---: | :---: | :---: | 
+
+| - | Attempt-1<br>(original) | Attempt-2 | Attempt-3 | Attempt-4 |
+| :--- | :---: | :---: | :---: | :---: | 
 |  | 1. Noisy variables are removed from features
  2. Additional neurons are added to hidden layers
  3. Additional hidden layers are added
