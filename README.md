@@ -83,10 +83,10 @@ Questions on Compiling, Training, and Evaluating the Model:
 - Noisy variables removed from features:  abc 
 
 
-| Factor selections in attempts to Optimize | Attempt-1<br>(original) | Attempt-2 | Attempt-3 | Attempt-4 |
-| :--- | :---: | :---: | :---: | :---: | 
-| 1. Additional neurons added to hidden layers:<br>2. Additional hidden layers added:<br>3. Activation function of hidden layers:<br><br> \\  \hhline <br>4. Activation function of the output layer:<br>5. Optimizer:<br>6. Epochs: | a | b | c | d |
-| Loss:<br>Accuracy: | a | b | c | d |
+| Model Factor selections | Attempt-1<br>(original) | Attempt-2 | Attempt-3 | Attempt-4 |
+| ---: | :--- | :--- | :--- | :--- | 
+| 1. Additional neurons added to hidden layers:<br>2. Additional hidden layers added:<br>3. Activation function of hidden layers:<br><br> <br>4. Activation function of the output layer:<br>5. Optimizer:<br>6. Epochs: | a | b | c | d |
+| Loss:<br>Accuracy: | 1 | 2 | 3 | 4 |
 
 
  
