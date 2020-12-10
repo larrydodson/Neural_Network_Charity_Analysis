@@ -76,7 +76,7 @@ Questions on Compiling, Training, and Evaluating the Model:
 
 - *What steps did you take to try and increase model performance?*
 
- Answer: Numerous attempts to increase the model's accuracy were made, none though that made any improvement. These included modifying: Hidden layers, number of neurons, pattern of neurons, activation functions for both hidden layers and for the output layer, optimizer and for number of epochs. Please see the table below in Deliverabl-3 for information of five of these attempts. 
+ Answer: Numerous attempts to increase the model's accuracy were made, none though that made any improvement. These included modifying: Hidden layers, number of neurons, pattern of neurons, activation functions for both hidden layers and for the output layer, optimizer and for number of epochs. Please see the table below in Deliverable-3 for information of five of these attempts. 
 
 .
 
