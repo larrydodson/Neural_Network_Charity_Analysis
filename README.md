@@ -86,7 +86,7 @@ Questions on Compiling, Training, and Evaluating the Model:
 
 | - | Attempt-1<br>(original) | Attempt-2 | Attempt-3 | Attempt-4 |
 | :--- | :---: | :---: | :---: | :---: | 
-| 1. Additional neurons added to hidden layers:<br>2. Additional hidden layers added:<br>3. Activation function of hidden layers:<br>4. Activation function of the output layer: | a | b | c | d |
+| 1. Additional neurons added to hidden layers:<br>2. Additional hidden layers added:<br>3. Activation function of hidden layers:<br><br><br>4. Activation function of the output layer:<br>5. Optimizer:<br>6. Epochs: | a | b | c | d |
 | Loss:<br>Accuracy: | a | b | c | d |
 
 
@@ -100,14 +100,6 @@ Questions on Compiling, Training, and Evaluating the Model:
 
 
 .
-
- 
-   | **abc** |
-   | :---: |
-   | ![]() |
-
-
-
 
 <br>
 
