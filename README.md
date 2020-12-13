@@ -87,20 +87,17 @@ Questions on Compiling, Training, and Evaluating the Model:
 
 
 | Attempt # | Accuracy<br>% | Hidden Layers | Hidden Layers Neurons |  Hidden Layers Activation | Output Activation | Optimizer | Epochs |
-| :---: | ---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | 1 | 72.55 | 2 | 90, 30 | relu | sigmoid | Adam | 50 |
 | 2 | 72.09 | 4 | 220, 120, 60, 60 | relu, tanh | sigmoid | Adam | 300 |
 | 3 | 72.24 | 3 | 60, 40, 20 | tanh | sigmoid | Adam | 50 |
 | 4 | 72.53 | 6 | 60, 120, 240, 240, 120, 60 | relu | sigmoid | Adam | 400 |
 | 5 | 72.56 | 3 | 40, 20, 20 | sigmoid, relu | sigmoid | Adam | 100 |
 
-
-
 .
 
 ### Deliverable 4: Written Report 
    (this readme.md file)
-
 
 .
 
@@ -109,14 +106,13 @@ Questions on Compiling, Training, and Evaluating the Model:
 ---
 
 ## Summary
-  (written summary)
 
-### Recommendation 
+   In this project a deep learning neural network model was created, trained, and defined using an available data set on charitable donations to varous entities. The goal was to create a model to predict the success of candidate companies receiving donations, based on data of known success. Included within this project goal was to estimate the ability of the model itself with regard to the accuracy of prediction, with an accuracy score. The model was modified by changing available settings after training for parameters that included number of hidden layers, nodes or neurons in each hidden layer, the activation function for each hidden layer and also for the output layer, the loss function, the optimizer function, and the number of epochs. Also, the base dataset was modified to remove noisy outliers and to drop other features that would not likely be significant to the results. 
+   The goal target for accuracy was to be greater than 75%, and overall the accuracy scores changed little from each attempt, being generally from 72.1 to 72.6%. 
 
-#### Using a different model to solve the classification problem:
+#### Using a model to solve the classification problem, and justification:
 
-
-#### Explanation and Justification description:
+   The defined output of the model was for a binary classification, "IS_SUCCESSFUL" aa 1 or 0. For each model attempt the recommendation is to use the sigmoid activation function. With a reference to the literature and documentation, the resulting sigmoid activation function values are normalized to a probability between 0 and 1, which is ideal for binary classification.
 
 .
 
