@@ -86,13 +86,13 @@ Questions on Compiling, Training, and Evaluating the Model:
 - Noisy variables: Additional preprocessing was used to attempt to remove noisy or less significant features from the model. None of the attempts made a significant difference in the end results for Model Accuracy. 
 
 
-| Attempt # | Accuracy | Hidden Layers | Hidden Layers Neurons |  Hidden Layers Activation | Output Activation | Optimizer | Epochs |
+| Attempt # | Accuracy<br>% | Hidden Layers | Hidden Layers Neurons |  Hidden Layers Activation | Output Activation | Optimizer | Epochs |
 | :---: | ---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| 1 | 0.7255 | 2 | 90, 30 | relu | sigmoid | Adam | 50 |
-| 2 | 0.7209 | 4 | 220, 120, 60, 60 | relu, tanh | sigmoid | Adam | 300 |
-| 3 | 0.7224 | 3 | 60, 40, 20 | tanh | sigmoid | Adam | 50 |
-| 4 | 0.7240 | 6 | 60, 120, 240, 240, 120, 60 | relu | sigmoid | Adam | 50 |
-| 5 | 0.7224 | 3 | 6, 4, 6 | tanh | linear | Adamax | 100 |
+| 1 | 72.55 | 2 | 90, 30 | relu | sigmoid | Adam | 50 |
+| 2 | 72.09 | 4 | 220, 120, 60, 60 | relu, tanh | sigmoid | Adam | 300 |
+| 3 | 72.24 | 3 | 60, 40, 20 | tanh | sigmoid | Adam | 50 |
+| 4 | 72.53 | 6 | 60, 120, 240, 240, 120, 60 | relu | sigmoid | Adam | 400 |
+| 5 | 72.56 | 3 | 40, 20, 20 | sigmoid, relu | sigmoid | Adam | 100 |
 
 
 
